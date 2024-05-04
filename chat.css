@@ -1,0 +1,71 @@
+body {
+  font-size: 25px !important;
+  background-color: #303030;
+  color: white;
+}
+/* Style umum untuk container chat */
+#responses {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0;
+  overflow-y: hidden;
+  max-height: 500px; /* Sesuaikan dengan kebutuhan */
+}
+
+/* Style untuk pesan pengguna */
+.user-item {
+  align-self: flex-end !important;
+  max-width: 70%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  /* border: 1px solid #ddd; */
+  margin-left: auto;
+}
+
+/* Style untuk pesan Plana */
+.response-item {
+  align-self: flex-start;
+  max-width: 70%;
+  margin: 10px;
+  padding: 10px;
+  /* border-radius: 10px;
+  border: 1px solid #ddd; */
+}
+
+/* Style untuk teks nama */
+.name-text.user-name {
+  font-weight: bold;
+  color: #5ab0ff; /* Contoh: warna teks untuk pengguna */
+  text-align: right; /* Menambahkan ini untuk meratakan teks ke kanan */
+}
+
+.name-text.plana-name {
+  font-weight: bold;
+  color: #dc3545; /* Contoh: warna teks untuk Plana */
+}
+
+/* Style untuk teks pesan */
+.message-text {
+  word-wrap: break-word;
+}
+
+#pesan {
+  text-align: center;
+  font-size: medium;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.toggleBubble {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
